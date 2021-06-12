@@ -1,0 +1,28 @@
+
+** VARIABLE
+
+Una variable es un tipo de dato que guarda informacion en la memoria, que podra ser utilizado a lo largo del programa.
+
+** STRING
+
+Un String es un tipo de dato de texto, puede ir entre comillas dobles o comillas sencillas, todo texto dentro de comillas es una cadena o String, el String en programacion es una potente herramienta ya que es un tipo de dato orientado a objetos puede ser una cadena de caracteres o lo que sea.
+
+** FUNCIONES
+
+una funcion es una parte importante en programacion, ya que nos permite hacer procesos que sean repetitivos mucho mas faciles de desarrollar y asi evitarnos muchas lineas de codigo.
+
+** DECLARACIONES
+
+La declaración da a conocer la función al compilador, de forma que a partir del punto de declaración, ya se pueden realizar invocaciones a la misma. A su vez, la definición estará en algún otro punto del programa, tal vez en una librería externa (en forma ya compilada) o en otro módulo de programa (como texto fuente).
+
+** VALORES BOOLEANOS
+
+Un valor booleano solo puede devoler dos valores, "True" ó "False" dependiendo si se cumple o no la condicion declarada dentro del codigo.
+
+
+
+** FUENTES
+
+https://www.ecured.cu/Declaraci%C3%B3n_de_funciones
+
+https://es.wikipedia.org/wiki/Variable_(programación)
