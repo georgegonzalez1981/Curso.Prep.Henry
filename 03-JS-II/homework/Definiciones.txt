@@ -1,0 +1,22 @@
+
+** BUCLE FOR **
+
+El bucle for es una estructura de control en programación en la que se puede indicar de antemano el número máximo de iteraciones
+
+** && **
+
+En programacion significa "AND LOGICO" que sidnifica un "SI LOGICO", lo cual indica que el programa seguira ejecutando el codigo siempre y cuando se cumpla si ó si la condicion. Un ejemplo seria que Juan puede entrar a la fiesta si tiene 18 años && tiene permiso de los papas. en caso de que alguna no se cumpla, juan no podra ingresar a la fiesta.
+
+** || **
+
+En programacion significa "OR LOGICO" que significa "O LOGICO", lo cual indica que el programa se seguira ejecutando el codigo siempre y cuando se cumpla una de las condiciones, En el ejemplo anterior juan solo debera cumplir unas de las dos condiciones para poder ingresar a la fiesta.
+
+** ! **
+
+En programacion significa "NOT LOGICO" que significa "NO LOGICO", Devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true. En este caso Juan no podra ir a la fiesta.
+
+
+** FUENTES **
+
+https://es.wikipedia.org/wiki/Bucle_for
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
