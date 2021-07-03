@@ -1,0 +1,71 @@
+
+**** OBJETOS ****
+
+Un objeto en POO representa alguna entidad de la vida real, es decir, alguno de los objetos que pertenecen al negocio con que estamos trabajando o al problema con el que nos estamos enfrentando, y con los que podemos interactuar. A través del estudio de ellos se adquiere el conocimiento necesario para, mediante la abstracción y la generalización, agruparlos según sus características en conjuntos. Estos conjuntos determinan las clases de objetos con las que estamos trabajando. Primero existen los objetos; luego aparecen las clases en función de la solución que estemos buscando. Ésta es la forma más común de adquirir conocimiento aunque no es la única. En ocasiones, cuando el observador es un experto del negocio (o del problema), el proceso puede ser a la inversa y comenzar el análisis en una base teórica abstracta, sustentada por el conocimiento previo que da lugar primeramente a clases de objetos que satisfagan las necesidades de la solución.
+
+Estos conceptos son parte de la base teórica de la idea de objeto y clase utilizados en la POO. Los objetos tienen características fundamentales que nos permiten conocerlos mediante la observación, identificación y el estudio posterior de su comportamiento; estas características son:
+
+Identidad
+Comportamiento
+Estado
+En las ramas de las ciencias de la computación más estrictamente matemáticas, el término objeto es usado en sentido puramente matemático para referirse a cualquier "cosa". Esta interpretación resulta útil para discutir sobre teorías abstractas, pero no es suficientemente concreta para servir como definición de un tipo primitivo en discusiones de ramas más específicas, como en la programación, que está más cerca de cálculos reales y el procesamiento de información.
+
+**** PROPIEDADES ****
+
+Una propiedad es un miembro que proporciona un mecanismo flexible para leer, escribir o calcular el valor de un campo privado. Las propiedades se pueden usar como si fueran miembros de datos públicos, pero en realidad son métodos especiales denominados descriptores de acceso. Esto permite acceder fácilmente a los datos a la vez que proporciona la seguridad y la flexibilidad de los métodos.
+
+**** METODOS ****
+
+En la programación, un método es una subrutina cuyo código es definido en una clase y puede pertenecer tanto a una clase, como es el caso de los métodos de clase o estáticos, como a un objeto, como es el caso de los métodos de instancia. Análogamente a los procedimientos en lenguajes imperativos, un método consiste generalmente de una serie de sentencias para llevar a cabo una acción, un juego de parámetros de entrada que regularán dicha acción o, posiblemente, un valor de salida (o valor de retorno) de algún tipo.
+
+La diferencia entre un procedimiento (generalmente llamado función si devuelve un valor) y un método es que este último, al estar asociado con un objeto o clase en particular, puede acceder y modificar los datos privados del objeto correspondiente de forma tal que sea consistente con el comportamiento deseado para el mismo. Así, es recomendable entender a un método no como una secuencia de instrucciones sino como la forma en que el objeto es útil (el método para hacer su trabajo). Por lo tanto, podemos considerar al método como el pedido a un objeto para que realice una tarea determinada o como la vía para enviar un mensaje al objeto y que este reaccione acorde a dicho mensaje.
+
+**** BUCLE FOR ****
+
+El bucle for
+En general, un bucle es una estructura de control que repite un bloque de instrucciones. Un bucle for es un bucle que repite el bloque de instrucciones un número prederminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo del bucle y cada repetición se suele llamar iteración.
+
+La sintaxis de un bucle for es la siguiente:
+
+for variable in elemento iterable (lista, cadena, range, etc.):
+    cuerpo del bucle
+No es necesario definir la variable de control antes del bucle, aunque se puede utilizar como variable de control una variable ya definida en el programa.
+
+El cuerpo del bucle se ejecuta tantas veces como elementos tenga el elemento recorrible (elementos de una lista o de un range(), caracteres de una cadena, etc.). Por ejemplo:
+
+for (var i=0; i < 10; i++){
+     console.log(i);
+}
+  
+este bucle imprimira los numero del 0 al 9.
+
+**** NOTACION DE PUNTOS VS NOTACION DE CORCHETES ****
+
+** La notacion de punto "." o "Dot Notacion" es  muy practica a la hora de invocar una variable dentro de un objeto.
+Ejemplo:
+
+var objeto = { .........// Se crea el objeto "objeto".
+nombre: 'George' ......	// Se define la variable Nombre 
+};
+>objeto.nombre   	// se hace el llamado a la funcion con el "Dot Notacion", que es un punto...
+>'George'
+
+** La notacion de corchetes "[]" o "Bracket Notation" es practica a la hora de invocar arreglos, funciones, o otros objetos dentro de un objeto.
+Ejemplo:
+
+ var objeto = { .......................	// Se define el objeto "objeto"
+     arreglo: ['Java', 'Script'], .....	// Se define el arreglo "arreglo" dentro del objeto, con los Strings                                            'Java' y 'Script' dentro del mismo. 
+};
+objeto.arreglo[0]   ...................// Se invoca la posicion [0] en el arreglo dentro del objeto.		
+'Java'
+
+objeto.arreglo[1]    .................// Se invoca la posicion [1] en el arreglo dentro del objeto.
+'Script'
+
+**** FUENTES ****
+
+https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n)
+
+https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/properties
+
+https://es.wikipedia.org/wiki/M%C3%A9todo_(inform%C3%A1tica)
